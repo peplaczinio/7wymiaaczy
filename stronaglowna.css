@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+html,body {
+	margin: 0px;
+	width: 100vw;
+}
+
+#header {
+    width: 100%;
+    background-color:#FFFF00;
+	text-align: center;
+	height: auto;
+	font-size: 3.5vw;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif" ;
+	letter-spacing: 2px;
+	margin-bottom: 4vw;
+	}
+#podstrony {
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    background-color: #FFFD00;
+	text-align: center;
+	height: auto;
+	font-size: 1.5vw;
+	border-right-color: black;
+	border-right-style: dashed;
+}
+#tresc {
+    width: 75%;
+    float: left;
+    overflow: hidden;
+    background-color:#FFFF00;
+	height: auto;
+	font-size: 2.3vw;
+	text-align: justify;
+	margin-left: 2vw;
+}
+.t{letter-spacing: 1px;
+}
+#stopka {
+    clear: both;
+    width: 45%;
+    background-color:#FFFF00;
+	height: auto;
+	font-size: 1.5vw;
+	color: sienna;
+	margin-left: 55vw;
+}
+
+span.podstrona:link {color: blue;
+}
+span.podstrona:hover {color: blueviolet; font-weight: bold; letter-spacing: 2px;
+}
+span.galeria:hover{color: blue;
+}
+span.galeria:hover {color: blueviolet; font-weight: bold; letter-spacing: 2px;
+}
+
